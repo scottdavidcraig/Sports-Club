@@ -5,8 +5,8 @@
 		"../sass/styles.scss"
 	],
 	"sourcesContent": [
-		"\n.footer{\n  min-height: 60px;\n  a{\n    color: grey;\n    text-decoration: underline;\n\n  }\n}\n\np a {\n  color: blue;\n  text-decoration: underline;\n}\n\n a {\ncolor: black;\n}\n\naddress {\n  line-height: 1;\n}\n"
+		"\n.footer{\n  min-height: 60px;\n  a{\n    color: grey;\n    text-decoration: underline;\n\n  }\n}\n\np a {\n  color: blue;\n  text-decoration: underline;\n}\n\n a {\ncolor: black;\n}\n\naddress {\n  line-height: 1;\n}\n\n.jumbotron {\n  margin-bottom: 0;\n}\n"
 	],
-	"mappings": ";AACA,AAAA,OAAO,CAAA;EACL,UAAU,EAAE,IAAK;CAMlB;;;AAPD,AAEE,OAFK,CAEL,CAAC,CAAA;EACC,KAAK,EAAE,IAAK;EACZ,eAAe,EAAE,SAAU;CAE5B;;;AAGH,AAAE,CAAD,CAAC,CAAC,CAAC;EACF,KAAK,EAAE,IAAK;EACZ,eAAe,EAAE,SAAU;CAC5B;;;AAEA,AAAA,CAAC,CAAC;EACH,KAAK,EAAE,KAAM;CACZ;;;AAED,AAAA,OAAO,CAAC;EACN,WAAW,EAAE,CAAE;CAChB",
+	"mappings": ";AACA,AAAA,OAAO,CAAA;EACL,UAAU,EAAE,IAAK;CAMlB;;;AAPD,AAEE,OAFK,CAEL,CAAC,CAAA;EACC,KAAK,EAAE,IAAK;EACZ,eAAe,EAAE,SAAU;CAE5B;;;AAGH,AAAE,CAAD,CAAC,CAAC,CAAC;EACF,KAAK,EAAE,IAAK;EACZ,eAAe,EAAE,SAAU;CAC5B;;;AAEA,AAAA,CAAC,CAAC;EACH,KAAK,EAAE,KAAM;CACZ;;;AAED,AAAA,OAAO,CAAC;EACN,WAAW,EAAE,CAAE;CAChB;;;AAED,AAAA,UAAU,CAAC;EACT,aAAa,EAAE,CAAE;CAClB",
 	"names": []
 }
