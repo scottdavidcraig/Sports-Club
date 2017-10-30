@@ -9,7 +9,13 @@
   text-decoration: underline;
 }
 
-/* line 13, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+/* line 11, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+p a {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* line 16, /Users/Scott/Websites/SportsClub/sass/styles.scss */
 a {
   color: black;
 }
