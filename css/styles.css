@@ -35,4 +35,11 @@ address {
   min-height: 200px;
 }
 
+@media (min-width: 992px) {
+  /* line 38, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+  .navbar-nav a {
+    margin-left: 4em;
+  }
+}
+
 /*# sourceMappingURL=../css/styles.map */

@@ -29,3 +29,12 @@ address {
 
   min-height: 200px;
 }
+
+//media queries
+
+// At Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  //add extra spacing around nav items
+  .navbar-nav a {
+    margin-left: 4em;;
+  } }
