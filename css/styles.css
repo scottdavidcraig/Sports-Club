@@ -1,42 +1,47 @@
-/* line 2, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+/* line 4, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+.prefooter {
+  background-color: #e9ecef;
+}
+
+/* line 9, /Users/Scott/Websites/SportsClub/sass/styles.scss */
 .footer {
   min-height: 60px;
 }
 
-/* line 4, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+/* line 11, /Users/Scott/Websites/SportsClub/sass/styles.scss */
 .footer a {
   color: grey;
   text-decoration: underline;
 }
 
-/* line 11, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+/* line 20, /Users/Scott/Websites/SportsClub/sass/styles.scss */
 p a {
   color: blue;
   text-decoration: underline;
 }
 
-/* line 16, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+/* line 25, /Users/Scott/Websites/SportsClub/sass/styles.scss */
 a {
   color: black;
 }
 
-/* line 20, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+/* line 29, /Users/Scott/Websites/SportsClub/sass/styles.scss */
 address {
   line-height: 1;
 }
 
-/* line 24, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+/* line 33, /Users/Scott/Websites/SportsClub/sass/styles.scss */
 .jumbotron {
   margin-bottom: 0;
 }
 
-/* line 28, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+/* line 37, /Users/Scott/Websites/SportsClub/sass/styles.scss */
 .prefooter {
   min-height: 200px;
 }
 
 @media (min-width: 992px) {
-  /* line 38, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+  /* line 47, /Users/Scott/Websites/SportsClub/sass/styles.scss */
   .navbar-nav a {
     margin-left: 4em;
   }
