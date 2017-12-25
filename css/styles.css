@@ -21,27 +21,33 @@ p a {
 }
 
 /* line 25, /Users/Scott/Websites/SportsClub/sass/styles.scss */
-a {
-  color: black;
+nav a {
+  text-decoration: none;
 }
 
-/* line 29, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+/* line 30, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+/* line 36, /Users/Scott/Websites/SportsClub/sass/styles.scss */
 address {
   line-height: 1;
 }
 
-/* line 33, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+/* line 40, /Users/Scott/Websites/SportsClub/sass/styles.scss */
 .jumbotron {
   margin-bottom: 0;
 }
 
-/* line 37, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+/* line 44, /Users/Scott/Websites/SportsClub/sass/styles.scss */
 .prefooter {
   min-height: 200px;
 }
 
 @media (min-width: 992px) {
-  /* line 47, /Users/Scott/Websites/SportsClub/sass/styles.scss */
+  /* line 54, /Users/Scott/Websites/SportsClub/sass/styles.scss */
   .navbar-nav a {
     margin-left: 4em;
   }
