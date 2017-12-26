@@ -45,14 +45,14 @@
           <h1 class="display-4">New members welcome</h1>
           <p class="lead"><span class="b">Tuesdays</span>  |  7:30pm-9:30pm</p>
           <p></p>
-          <p> <a href="https://www.google.co.uk/maps/place/Inveralmond+Community+High+School/@55.8996875,-3.5228887,17z/data=!3m1!4b1!4m5!3m4!1s0x4887dbe23b9ea235:0x3a467cd8c8d4a6f0!8m2!3d55.8996875!4d-3.5207">Inveralmond Community High School</a></p>
+          <p> <a href="https://www.google.co.uk/maps/place/Inveralmond+Community+High+School/@55.8996875,-3.5228887,17z/data=!3m1!4b1!4m5!3m4!1s0x4887dbe23b9ea235:0x3a467cd8c8d4a6f0!8m2!3d55.8996875!4d-3.5207" onclick="trackOutboundLink('http://www.maps.google.com'); return false;">Inveralmond Community High School</a></p>
 
     </div>
     </section>
 
     <div class="alert alert-info text-lg-center" role="alert">
       <h4>Got a question?</h4>
-      <p>Ask our<a href="https://www.facebook.com/groups/430578963632457/"> Facebook group</a> or call <a href="01506 439631">01506 439631</a></p>
+      <p>Ask our<a href="https://www.facebook.com/groups/430578963632457/" onclick="trackOutboundLink('https://www.facebook.com/groups/430578963632457/'); return false;"> Facebook group</a> or call <a href="01506 439631" onclick="trackOutboundLink('01506 439631'); return false;">01506 439631</a></p>
     </div>
 
 
@@ -90,9 +90,9 @@
     <div class="row">
       <div id="contact" class="col-md-6">
         <h4>Contact us</h4>
-        <p>On<a href="https://www.facebook.com/groups/430578963632457/"> facebook</a></p>
+        <p>On<a href="https://www.facebook.com/groups/430578963632457/ onclick="trackOutboundLink('https://www.facebook.com/groups/430578963632457/'); return false;""> facebook</a></p>
 
-        <p>By phone<a href="01506 439631"> 01506 439631</a></p>
+        <p>By phone<a href="01506 439631" onclick="trackOutboundLink(' 01506 439631'); return false;"> 01506 439631</a></p>
       </div>
       <div class="col-md-6">
         <h4>Useful links</h4>
@@ -133,6 +133,19 @@
 
       gtag('config', 'UA-111511538-1');
     </script>
+    <script>
+/**
+GA events
+*/
+var trackOutboundLink = function(url) {
+  gtag('event', 'click', {
+    'event_category': 'outbound',
+    'event_label': url,
+    'transport_type': 'beacon',
+    'event_callback': function(){document.location = url;}
+  });
+}
+</script>
 
   </body>
 
